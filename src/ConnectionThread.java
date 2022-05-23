@@ -37,6 +37,7 @@ this.messenger = messenger;
             if (word != null) {
                 System.out.println("Сообщение от клиента: "+word);
                 messenger.send(word);
+
                 }
             }
         System.out.println("Клиент отвалился");
